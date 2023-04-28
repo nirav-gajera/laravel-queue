@@ -45,6 +45,18 @@ We would like to extend our thanks to the following sponsors for helping fund on
 - [Runtime Converter](http://runtimeconverter.com/)
 - [WebL'Agence](https://weblagence.com/)
 
+
+## installation
+
+1. setup mail in .env file using maitrap.io
+, add "QUEUE_CONNECTION=database" in your .env file
+
+2. migrate jobs table using -php artisan migrate
+
+3. run - php artisan serve
+
+4. run "php artisan queue:work" after serve for queue job
+
 ## Contributing
 
 Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
