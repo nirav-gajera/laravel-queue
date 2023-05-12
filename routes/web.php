@@ -17,7 +17,6 @@ Route::get('test', function () {
     $details['email'] = 'nirav.demo@gmail.com';
 
     dispatch(new SendWelcomeEmailJob($details));
-
     dd('sent');
 });
 
