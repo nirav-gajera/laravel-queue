@@ -15,7 +15,6 @@
     <br/>
     <br/>
     <br/>
-    <br/>
     <p><a href="https://github.com/nirav-gajera">Connect me on github</a></p>
 </body>
 </html>
