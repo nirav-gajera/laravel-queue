@@ -30,7 +30,7 @@ class SendEmailWelcome extends Mailable
      */
     public function build()
     {
-        return $this->subject('Queue-Job Demo!')->view('emails.welcome')->with([
+        return $this->subject('Queue-Job Demo')->view('emails.welcome')->with([
             'name' => $this->name,
         ]);
     }

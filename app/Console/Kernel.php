@@ -13,7 +13,7 @@ class Kernel extends ConsoleKernel
      * @var array
      */
     protected $commands = [
-        //
+        \App\Console\Commands\TestCommand::class,
     ];
 
     /**
@@ -26,6 +26,7 @@ class Kernel extends ConsoleKernel
     {
         // $schedule->command('inspire')
         //          ->hourly();
+        $schedule->command('test-mail')->everyMinute();
     }
 
     /**
@@ -38,5 +39,9 @@ class Kernel extends ConsoleKernel
         $this->load(__DIR__.'/Commands');
 
         require base_path('routes/console.php');
+        
+    // $this->app->bind('command.sendtestmail', function ($app) {
+    //     return new \App\Console\Commands\TestCommand();
+    // });
     }
 }

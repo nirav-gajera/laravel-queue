@@ -12,7 +12,7 @@
 */
 use App\Jobs\SendWelcomeEmailJob;
 
-Route::get('test', function () {
+Route::get('/test', function () {
     $details['name'] = 'nirav';
     $details['email'] = 'nirav.demo@gmail.com';
 

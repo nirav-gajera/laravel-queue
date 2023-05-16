@@ -5,17 +5,7 @@
     <p>Welcome to laravel.</p><br/>
     <br/>
     <br/>
-    <br/>
-    <br/>
-    <br/>
-    <br/>
-    <br/>
-    <br/>
-    <br/>
-    <br/>
-    <br/>
-    <br/>
-    <br/>
+    <p>Thank you.</p>
     <p><a href="https://github.com/nirav-gajera">Connect me on github</a></p>
 </body>
 </html>
